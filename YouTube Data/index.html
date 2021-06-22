@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Data</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #444444;">
+
+<div class="bg-danger p-3">
+    <h1 id="VideoTitle" class="p-0 text-white m-0"></h1>
+</div>
+<div class="container-fluid px-3 py-1">
+    <div class="row">
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Comments">00</h6>
+                    <p class="p-0 m-0">Comments</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Dislikes">00</h6>
+                    <p class="p-0 m-0">Dislikes</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Likes">00</h6>
+                    <p class="p-0 m-0">Likes</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Views">00</h6>
+                    <p class="p-0 m-0">Views</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Earning">$00.00</h6>
+                    <p class="p-0 m-0">Estimated Earning</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="License">...</h6>
+                    <p class="p-0 m-0">License status</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Live">...</h6>
+                    <p class="p-0 m-0">Live Status</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 text-center p-1">
+            <div class="card">
+                <div class="card-body">
+                    <h6 id="Child">...</h6>
+                    <p class="p-0 m-0">For Child</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+    <div class="row">
+        <div class="col-6 p-1">
+            <div class="bg-white p-2">
+                <img id="thumbnailPreview" class="thumbnail-Img" src="images/demo-image.jpg" alt="">
+                <h6 class="headingTitle my-2 text-center border-bottom">Download Thumbnail</h6>
+                <div class="mb-2 d-flex justify-content-center">
+                    <button id="maxBTN" type="button" class="btn mx-1 btn-sm btn-danger">Max</button>
+                    <button id="standardBTN" type="button" class="btn mx-1 btn-sm btn-danger">Standard</button>
+                    <button id="highBTN" type="button" class="btn mx-1 btn-sm btn-danger">High</button>
+                    <button id="MediumBTN" type="button" class="btn mx-1 btn-sm btn-danger">Medium</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 p-1">
+            <div class="bg-white p-2">
+                <h6 class="headingTitle text-center"> Video Tags</h6>
+                <textarea id="tags" rows="9" class="form-control"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
